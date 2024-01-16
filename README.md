@@ -31,6 +31,6 @@ tf.Tensor([0 1 2 3 4 5 6 7 8], shape=(9,), dtype=int32)
 
 To use your custom-trained object detector, open `video_object_detection.py` and change the `MODEL_NAME` variable from `faster_rcnn_inception_v2_coco_2018_01_28` to `inference_graph`. Change the `PATH_TO_LABELS` variable from `os.path.join(CWD_PATH,'data','mscoco_label_map.pbtxt')` to `os.path.join(CWD_PATH,'training','custom_label_map.pbtxt')`. Change the `NUM_CLASSES` variable from 90 to the number of object classes you are trying to detect. 
 
-Its difficult to tell, but my resulting custom fine-tuned model produces slightly better detection accuracy of a frisbee than the pre-trained model. 
+Its difficult to tell, but my resulting custom fine-tuned model produces slightly better detection than previous one. 
 
-![](readme_gifs/custom_model_output.gif)
+![](/maintest2.jpg)
