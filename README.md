@@ -13,9 +13,12 @@ pip install opencv-python
 
 **1.7.** Simply run run_me.py,the command will automatically download the pretrained model.
 ```
-protoc object_detection/protos/*.proto --python_out=.
-python setup.py build
-python setup.py install
+sudarshsnan@Sudarshan-MacBook-Air Custom_Object_Detection % /usr/local/bin/python3 /Users/sudarshsnan/De
+sktop/Projects/Custom_Object_Detection/run_me.py
+Loading modelmask_rcnn_inception_resnet_v2_1024x1024_coco17_gpu-8....
+modelmask_rcnn_inception_resnet_v2_1024x1024_coco17_gpu-8is loaded successfully!
+tf.Tensor([0 1 2 3 4 5 6 7 8], shape=(9,), dtype=int32)
+2024-01-16 16:11:01.980 Python[48542:2334426] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
 ```
 
 ## 2. Using a pre-trained model
